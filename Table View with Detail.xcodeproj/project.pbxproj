@@ -12,8 +12,8 @@
 		886C3F0D1AD1A2AB00FCB0A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886C3F0C1AD1A2AB00FCB0A9 /* Images.xcassets */; };
 		886C3F101AD1A2AB00FCB0A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886C3F0E1AD1A2AB00FCB0A9 /* LaunchScreen.xib */; };
 		886C3F1C1AD1A2AB00FCB0A9 /* Table_View_with_DetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3F1B1AD1A2AB00FCB0A9 /* Table_View_with_DetailTests.swift */; };
-		886C3F281AD1A3AB00FCB0A9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3F271AD1A3AB00FCB0A9 /* TableViewController.swift */; };
 		886C3F2A1AD1A57C00FCB0A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3F291AD1A57C00FCB0A9 /* DetailViewController.swift */; };
+		886C3F2C1AD1ACCC00FCB0A9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3F2B1AD1ACCC00FCB0A9 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,8 @@
 		886C3F151AD1A2AB00FCB0A9 /* Table View with DetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table View with DetailTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886C3F1A1AD1A2AB00FCB0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		886C3F1B1AD1A2AB00FCB0A9 /* Table_View_with_DetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_View_with_DetailTests.swift; sourceTree = "<group>"; };
-		886C3F271AD1A3AB00FCB0A9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
 		886C3F291AD1A57C00FCB0A9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		886C3F2B1AD1ACCC00FCB0A9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 		886C3F021AD1A2AB00FCB0A9 /* Table View with Detail */ = {
 			isa = PBXGroup;
 			children = (
-				886C3F271AD1A3AB00FCB0A9 /* TableViewController.swift */,
 				886C3F291AD1A57C00FCB0A9 /* DetailViewController.swift */,
 				886C3F051AD1A2AB00FCB0A9 /* AppDelegate.swift */,
+				886C3F2B1AD1ACCC00FCB0A9 /* TableViewController.swift */,
 				886C3F091AD1A2AB00FCB0A9 /* Main.storyboard */,
 				886C3F0C1AD1A2AB00FCB0A9 /* Images.xcassets */,
 				886C3F0E1AD1A2AB00FCB0A9 /* LaunchScreen.xib */,
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				886C3F2A1AD1A57C00FCB0A9 /* DetailViewController.swift in Sources */,
-				886C3F281AD1A3AB00FCB0A9 /* TableViewController.swift in Sources */,
+				886C3F2C1AD1ACCC00FCB0A9 /* TableViewController.swift in Sources */,
 				886C3F061AD1A2AB00FCB0A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +411,7 @@
 				886C3F211AD1A2AB00FCB0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		886C3F221AD1A2AB00FCB0A9 /* Build configuration list for PBXNativeTarget "Table View with DetailTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				886C3F241AD1A2AB00FCB0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

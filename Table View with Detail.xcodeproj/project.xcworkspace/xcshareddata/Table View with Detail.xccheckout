@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9D640C83-77EC-4773-A0A3-1CE0C9613403</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Table View with Detail</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B4711615E841FC93717240564E502A163680FB3E</key>
+		<string>jshawl.com:/git/swift/table-view-with-detail</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Table View with Detail.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B4711615E841FC93717240564E502A163680FB3E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>jshawl.com:/git/swift/table-view-with-detail</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B4711615E841FC93717240564E502A163680FB3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B4711615E841FC93717240564E502A163680FB3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>table-view-with-detail</string>
+		</dict>
+	</array>
+</dict>
+</plist>
